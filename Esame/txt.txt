@@ -1,0 +1,21 @@
+-librerie da utilizzare 
+numpy
+keras
+tensorflow
+jupyternotebook
+gym -> atarigym
+(strumento non libreria) anaconda
+
+-https://www.youtube.com/watch?v=H9CSWMxJx84
+asteroids codice fighissimo
+
+https://www.atariage.com/2600/programming/index.html
+info utili per programmare atari
+
+https://towardsdatascience.com/deep-reinforcement-learning-tutorial-with-open-ai-gym-c0de4471f368
+space invaders figo + codice
+
+https://kyso.io/eoin/openai-gym-jupyter?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
+space invaders su gym
+
+-
