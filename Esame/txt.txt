@@ -18,4 +18,5 @@ space invaders figo + codice
 https://kyso.io/eoin/openai-gym-jupyter?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
 space invaders su gym
 
--
+-Metodo installazione atari_gym
+	pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
