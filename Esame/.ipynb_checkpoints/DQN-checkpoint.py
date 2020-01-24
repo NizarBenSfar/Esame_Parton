@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 38,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -10,13 +10,12 @@
     "from keras.layers import Input, Conv2D, Dense, MaxPooling2D , Flatten\n",
     "from keras.models import Model, Sequential, load_model\n",
     "from collections import deque\n",
-    "from keras.optimizers import Adam\n",
     "import keras"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 54,
+   "execution_count": 61,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -49,21 +48,24 @@
     "    \n",
     "    def get_action (self,state):\n",
     "        action_prob= self.policy_net.predict(state)\n",
-    "        return    "
+    "        return \n",
+    "        \n",
+    "       \n",
+    "        "
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 55,
+   "execution_count": 58,
    "metadata": {},
    "outputs": [],
    "source": [
-    "dqn=DQN([ , 128 ,3] , 6)"
+    "dqn=DQN([210,160,3] , 6)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 56,
+   "execution_count": 59,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -72,7 +74,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 57,
+   "execution_count": 60,
    "metadata": {},
    "outputs": [
     {
@@ -82,24 +84,24 @@
       "_________________________________________________________________\n",
       "Layer (type)                 Output Shape              Param #   \n",
       "=================================================================\n",
-      "conv2d_32 (Conv2D)           (None, 194, 122, 128)     18944     \n",
+      "conv2d_35 (Conv2D)           (None, 204, 154, 128)     18944     \n",
       "_________________________________________________________________\n",
-      "max_pooling2d_21 (MaxPooling (None, 64, 40, 128)       0         \n",
+      "max_pooling2d_23 (MaxPooling (None, 68, 51, 128)       0         \n",
       "_________________________________________________________________\n",
-      "conv2d_33 (Conv2D)           (None, 29, 17, 128)       802944    \n",
+      "conv2d_36 (Conv2D)           (None, 31, 23, 128)       802944    \n",
       "_________________________________________________________________\n",
-      "max_pooling2d_22 (MaxPooling (None, 14, 8, 128)        0         \n",
+      "max_pooling2d_24 (MaxPooling (None, 15, 11, 128)       0         \n",
       "_________________________________________________________________\n",
-      "conv2d_34 (Conv2D)           (None, 4, 1, 128)         802944    \n",
+      "conv2d_37 (Conv2D)           (None, 5, 3, 128)         802944    \n",
       "_________________________________________________________________\n",
-      "flatten_10 (Flatten)         (None, 512)               0         \n",
+      "flatten_11 (Flatten)         (None, 1920)              0         \n",
       "_________________________________________________________________\n",
-      "dense_19 (Dense)             (None, 512)               262656    \n",
+      "dense_21 (Dense)             (None, 512)               983552    \n",
       "_________________________________________________________________\n",
-      "dense_20 (Dense)             (None, 6)                 3078      \n",
+      "dense_22 (Dense)             (None, 6)                 3078      \n",
       "=================================================================\n",
-      "Total params: 1,890,566\n",
-      "Trainable params: 1,890,566\n",
+      "Total params: 2,611,462\n",
+      "Trainable params: 2,611,462\n",
       "Non-trainable params: 0\n",
       "_________________________________________________________________\n"
      ]
