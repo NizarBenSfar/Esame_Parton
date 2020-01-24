@@ -21,3 +21,5 @@ space invaders su gym
 -https://www.domsoria.com/2019/10/come-funziona-una-rete-neurale-cnn-convolutional-neural-network/
 CNN cos'è e come funziona, molto carino 
 
+--prova kraken
+
