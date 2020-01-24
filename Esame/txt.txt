@@ -20,6 +20,8 @@ space invaders su gym
 
 -Metodo installazione atari_gym
 	pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
+	
+-Il gioco inizia dopo 44 +-1 frame 
 
 
 WEEKEND
