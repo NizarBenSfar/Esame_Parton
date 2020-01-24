@@ -20,3 +20,10 @@ space invaders su gym
 
 -Metodo installazione atari_gym
 	pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
+
+
+WEEKEND
+-dopo quanti FRAME catturare l'azione 
+-problema dello sparo
+-come procedere (td...)
+-parton: dai un'occhiata + advice
