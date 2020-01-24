@@ -19,8 +19,13 @@ https://kyso.io/eoin/openai-gym-jupyter?utm_campaign=News&utm_medium=Community&u
 space invaders su gym
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 -https://www.domsoria.com/2019/10/come-funziona-una-rete-neurale-cnn-convolutional-neural-network/
 CNN cos'è e come funziona, molto carino 
+=======
+-Metodo installazione atari_gym
+	pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
+>>>>>>> bb40a967184facb6f8e5648ec288378b3f7372aa
 =======
 -Metodo installazione atari_gym
 	pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
